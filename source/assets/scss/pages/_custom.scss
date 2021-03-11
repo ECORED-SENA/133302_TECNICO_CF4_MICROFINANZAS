@@ -1,9 +1,15 @@
 .bg-color-naranja {
   background-color: orange;
 }
+.orange{
+  color: orange;
+  font-weight: bold;
+}
+
 .text-black{
   color: black;
 }
+
 .text-white {
   color: white;
 }
@@ -33,6 +39,25 @@
     margin-right: -100%;
     margin-left: 10px;
     border-top: 1px solid #FD8F25;
+  }
+}
+
+.sub {
+  h2,
+  h3 {
+    overflow: hidden;
+    font-weight: 700;
+  }
+
+  h2:after,
+  h3:after {
+    content: "";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
   }
 }
 
@@ -96,7 +121,7 @@
       border-radius: 50%;
       background-color: orange;
       span {
-        color: white;
+        color: #00223D;
         font-weight: 700;
         font-size: small;
         position: absolute;
@@ -565,4 +590,93 @@
 
 .bg-9{
   background: #97E8EF;
+}
+
+.r-border {
+  border-radius: 0px;
+}
+
+.bg-10 {
+  background: #fae7b72a;
+  border-top: 2px solid #e7d3ac !important;
+  border-bottom: 2px solid #e7d3ac !important;
+  border-left: #fae7b72a !important;
+  border-right: #fae7b72a !important;
+  border-radius: 0px;
+}
+
+.bg-11 {
+  background: #fae7b738;
+}
+
+.bg-12 {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(203, 217, 228, 1) 100%
+  );
+}
+
+.color-black{
+  color: #00223D!important;
+}
+
+.cat{
+  background: #2F668F;  
+  color: white; 
+  border-radius: 50px; 
+}  
+
+.table1{
+  background: #FEC558!important;
+  border: 1px solid white;
+}
+
+.table2{
+  background: #FDEFD3;
+  border: 1px solid white;
+}
+
+.table3{
+  background: #FCE8C2;
+  border: 1px solid white;
+}
+
+.b-l{
+  border-left: 1px solid black;
+}
+
+.bg-white{
+  background: white!important;
+}
+
+.b-color{
+  border:1px solid #42566B!important;
+}
+
+.s{
+  border: 2px solid #7070703a;
+}
+
+.text-sup {
+  margin-top: -80px;
+}
+
+.text-sup-1 {
+  margin-top: -130px;
+}
+
+.img-sup{
+  z-index: 4!important;
+}
+
+.bg-13{
+  background: #FAE7B7;
+  border-radius: 0px!important;
+}
+
+.bg-14{
+  background: #FEC558;
+  border-radius: 0px!important;
 }

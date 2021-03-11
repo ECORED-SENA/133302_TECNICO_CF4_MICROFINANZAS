@@ -5,8 +5,12 @@
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   border-radius: 12px;
-  background-color: #a3a4bf1f; 
-  border: 1px solid #FEC558;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(203, 217, 228, 1) 100%
+  );
   &__body {     
     .card__figure {
       margin: 0;
